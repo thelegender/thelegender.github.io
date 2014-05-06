@@ -1,7 +1,7 @@
 #welcome {
 width: 100%;
 height: 50px;
-border-bottom: 2px solid #d6d6d6;
+border-bottom: 2px solid #cecece;
 background-color: #fff;
 position: absolute;
 top: 0;
@@ -10,4 +10,66 @@ text-align: center;
 line-height: 50px;
 font-family: Arial;
 font-size: 22px;
-};
+}
+
+.button {
+height:40px;
+width:100px;
+margin-top: 150px;
+margin-left: 100px;
+text-align: center;
+line-height: 40px;
+font-family: Arial;
+color:white;
+font-size: 12px;
+border-radius: 3px;
+background: #c10000; /* Old browsers */
+background: -moz-linear-gradient(top, #c10000 0%, #ff4242 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c10000), color-stop(100%,#ff4242)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #c10000 0%,#ff4242 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #c10000 0%,#ff4242 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #c10000 0%,#ff4242 100%); /* IE10+ */
+background: linear-gradient(to bottom, #c10000 0%,#ff4242 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c10000', endColorstr='#ff4242',GradientType=0 ); /* IE6-9 */
+}
+
+#window {
+	height:500px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F1F2F2;
+	border-radius: 3px;
+	border: 5px #cecece solid;
+}
+
+#window-head {
+	text-align: center;
+	line-height: 90px;
+	font-family: Arial;
+	font-size: 32px;
+	height:90px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #cecece;
+}
+
+#close {
+	float: right;
+	height:9px;
+	width: 9px;
+	border-radius: 9px;
+	margin-right: 7px;
+	margin-top: 7px;
+	margin-left: auto;
+	background-color: red;
+}
+
+#close:hover {
+	cursor: pointer;
+}
+
+.button:hover {
+	cursor: pointer;
+}
