@@ -7,9 +7,18 @@ $(document).ready(function(){
 		$('.button').fadeTo('fast', 1);
 	});
 	$('#close').click(function(){
-		$('#window').fadeOut(300);
+		$('#window').slideUp(400);
 	});
 	$('.button').click(function(){
-		$('#window').fadeIn(300);
+		$('#window').show(400);
+	});
+
+
+
+	$('.headButton').mouseenter(function(){
+		$('.headMenu').show();
+	});
+	$('.headButton').mouseleave(function(){
+		$('.headMenu').slideUp(400);
 	});
 });
