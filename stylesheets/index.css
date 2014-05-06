@@ -11,37 +11,24 @@ left: 0;
 }
 
 .button {
-height:40px;
-width:110px;
+	border-bottom: solid 3px #9e2f2f;
+height:80px;
+width:290px;
 margin-top: 100px;
 margin-left: auto;
 margin-right: auto;
 text-align: center;
-line-height: 40px;
+line-height: 80px;
 font-family: Arial;
 color:white;
-font-size: 12px;
-border-radius: 3px;
-background: #c10000; /* Old browsers */
-background: -moz-linear-gradient(top, #c10000 0%, #ff4242 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c10000), color-stop(100%,#ff4242)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, #c10000 0%,#ff4242 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, #c10000 0%,#ff4242 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, #c10000 0%,#ff4242 100%); /* IE10+ */
-background: linear-gradient(to bottom, #c10000 0%,#ff4242 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c10000', endColorstr='#ff4242',GradientType=0 ); /* IE6-9 */
+font-size: 22px;
+border-radius: 2px;
+background-color: #e05050;
 }
 
 .button:hover {
-	background: #ed0000; /* Old browsers */
-background: -moz-linear-gradient(top,  #ed0000 0%, #ff3d3d 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ed0000), color-stop(100%,#ff3d3d)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #ed0000 0%,#ff3d3d 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #ed0000 0%,#ff3d3d 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #ed0000 0%,#ff3d3d 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #ed0000 0%,#ff3d3d 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed0000', endColorstr='#ff3d3d',GradientType=0 ); /* IE6-9 */
-
+background-color: #e51616;
+-webkit-transition: 0.4s;
 }
 
 #window {
