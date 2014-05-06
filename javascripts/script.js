@@ -19,6 +19,6 @@ $(document).ready(function(){
 		$('.headMenu').show();
 	});
 	$('.headButton').mouseleave(function(){
-		$('.headMenu').slideUp(400);
+		$('.headMenu').hide();
 	});
 });
