@@ -1,11 +1,5 @@
 $(document).ready(function(){
 	$('#window').hide();
-	$('#welcome').mouseenter(function(){
-		$('#welcome').fadeTo('fast', 0.5);
-	});
-	$('#welcome').mouseleave(function(){
-		$('#welcome').fadeTo('fast', 1);
-	});
 	$('.button').mouseenter(function(){
 		$('.button').fadeTo('fast', 0.7);
 	});
