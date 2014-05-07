@@ -75,7 +75,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c10000', end
 
 .headButton {
 z-index: 10000;
-width: 100px;
+width: 200px;
 height: 50px;
 background: #ffffff; /* Old browsers */
 background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
@@ -96,7 +96,7 @@ display: none;
 line-height: 40px;
 z-index: 10000;
 width: 100px;
-height: 125px;
+height: 200px;
 background: #ffffff; /* Old browsers */
 background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
 background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
