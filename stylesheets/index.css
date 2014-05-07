@@ -1,6 +1,7 @@
-#welcome {
+#nav {
 z-index: 9999999;
 float:right;
+min-width: 900px;
 width: 100%;
 height: 50px;
 border-bottom: 2px solid #cecece;
@@ -10,126 +11,50 @@ top: 0;
 left: 0;
 }
 
-.button {
-border-bottom: solid 3px #9e2f2f;
-height:80px;
-width:290px;
-margin-top: 100px;
-margin-left: auto;
-margin-right: auto;
-text-align: center;
-line-height: 80px;
-font-family: Arial;
-color:white;
-font-size: 22px;
-border-radius: 2px;
-background-color: #e05050;
-}
-
-.button:hover {
-background-color: #ed8b8b;
-border-bottom: solid 3px #bc6f6f;
--webkit-transition: 0.4s;
-}
-
-#window {
-	height:500px;
-	width: 600px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #F1F2F2;
-	border-radius: 3px;
-	border: 5px #cecece solid;
-}
-
-#window-head {
-	text-align: center;
-	line-height: 90px;
-	font-family: Arial;
-	font-size: 32px;
-	height:90px;
-	width: 600px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #cecece;
-}
-
-#close {
-	float: right;
-	height:9px;
-	width: 9px;
-	border-radius: 9px;
-	margin-right: 7px;
-	margin-top: 7px;
-	margin-left: auto;
-	background-color: red;
-}
-
-#close:hover {
-	cursor: pointer;
-}
-
-.button:hover {
-	cursor: pointer;
+#headLogo {
+float: left;
+height: 50px;
+width: 138px;
 }
 
 .headButton {
+color: #292838;
 z-index: 10000;
+float: right;
 width: 200px;
 height: 50px;
-background: #ffffff; /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover, #ffffff 0%,#e5e5e5 100%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%,#e5e5e5 100%); /* IE10+ */
-background: radial-gradient(ellipse at center, #ffffff 0%,#e5e5e5 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+background-color: #ffffff;
 text-align: center;
 line-height: 50px;
 font-family: Arial;
-font-size: 14px;
+font-size: 18px;
+}
+
+.headButton:hover {
+	background-color: #c9c9c9;
+	cursor: pointer;
 }
 
 .headMenu {
+float: right;
+clear: right;
 display: none;
 line-height: 40px;
 z-index: 10000;
 width: 140px;
-height: 205px;
-background: #ffffff; /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover, #ffffff 0%,#e5e5e5 100%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%,#e5e5e5 100%); /* IE10+ */
-background: radial-gradient(ellipse at center, #ffffff 0%,#e5e5e5 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-margin-top: -16px;
+height: 215px;
+background-color: #c9c9c9;
 padding-right: 60px;
 text-align: center;
 }
 
-#text1 {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	font-family: Arial;
-	color: #DE3428;
-	font-size: 24px;
-}
-
-#random3 {
-	color: green;
-
-}.darkness {
+.menuExpanded {
+	padding-left: 30px;
+	padding-right: 30px;
 	font-family: arial;
 	color: gray;
 }
 
-#lightness {
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 50px;
-	display: block;
+.selection:hover {
+	background-color: #e0e0e0;
 }
