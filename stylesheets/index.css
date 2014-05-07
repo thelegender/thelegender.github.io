@@ -126,3 +126,9 @@ text-align: center;
 	font-family: arial;
 	color: gray;
 }
+
+#lightness {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
